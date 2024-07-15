@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/WD-Final-Project">
+  <a href="https://github.com/ailaktt">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/pink heart.png" alt="aura" width="150" height="150">
   </a>
@@ -27,7 +27,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=ailaktt/WD-SEATWORK-4)
+![](https://visit-counter.vercel.app/counter.png?page=ailaktt/WD-Final-Project)
 
 ---
 
