@@ -4,23 +4,30 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/pink heart.png" alt="aura" width="150" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">FINAL PROJECT</h3>
 </div>
+<!-- Banner added here -->
+<div align="center">
+  <img src="./assets/img/pastel orange aura.jpg" alt="Banner Image" width="100%">
+</div>
+
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Welcome To My Project Final Project
+  by Kyla Deirdre C. Tan
+
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=ailaktt/WD-SEATWORK-4)
 
 ---
 
@@ -57,20 +64,23 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+  For this project we were tasked to a create a personal website. The main theme that I incorporated my website
+with is Aura and just minimalist. The website includes a Home/Landing Page and 4 distinct pages that includes
+Resume, Projects, Portfolio and Contacts. Resume includes my biographical details and education, Projects to showcase
+my previous HTML/CSS projects in the subject IT0044L, Portfolio to display my other works beside HTML/CSS and
+Contacts for my personal number and email. Each pages of the website is designed to be visually appealing while
+using different CSS animations and different kinds of layout. 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Landing Page
+- Resume Page
+- Projects Page
+- Portfolio Page
+- Contacts Page
+- Animations
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -112,9 +122,36 @@ WD-ProjectName
 └─ readme.md
 ```
 
+## Websites and Repositories
+| Title | Website | Repository |
+|-|-|-|
+| Seatwork 2 | https://ailaktt.github.io/WD-SEATWORK2-TC03/ | https://github.com/ailaktt/WD-SEATWORK2-TC03 |
+| Seatwork 3 | https://ailaktt.github.io/WD-Seatwork-3/ | https://github.com/ailaktt/WD-Seatwork-3 |
+| Seatwork 4 | https://ailaktt.github.io/WD-SEATWORK-4-TC03/ | https://github.com/ailaktt/WD-SEATWORK-4-TC03 |
+
 ## Resources
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Laptop Photo | Used for the front page |"https://storyset.com/computer"Computer illustrations by Storyset |
+| GOOGLE FONTS | Used the font Manrope for the design of the texts | https://fonts.google.com/specimen/Manrope?sort=popularity |
+
+## WakaTime
+<div align="center" float="left">
+  <p>
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=ailaktt&show_icons=true&theme=dark" alt="ailaktt" width=400 />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ailaktt&layout=compact&theme=dark" alt="ailaktt" width=310 />
+  </p>
+  <p>
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ailaktt&theme=radical&hide_border=false" alt="ailaktt" width=430 />
+    <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ailaktt&theme=tokyonight&utcOffset=+08" alt="ailaktt" width=310 />
+  </p>
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ailaktt&theme=tokyonight" alt="ailaktt" style="max-width: 100%;border: 1px solid white;border-radius: 6px;" width=600></img>
+
+  <br/>
+  
+</div>
+
+
+
