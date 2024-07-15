@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background-size: cover;
+}
+
+.header {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  z-index: 1;
+}
+
+.fa-cat {
+  color: #E0218A; 
+  font-size: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 1;
+}
+
+.nav-link {
+  font-size: 2rem;
+  color: #E0218A;
+  font-family: "Anton Sc";
+  transition: transform 0.5s, color 0.3s;
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  transform: translateY(-10px);
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-size: 4.375rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.3rem;
+  color: white;
+  padding: 10px;
+  animation: revealText 2s ease-in-out forwards;
+}
+
+@keyframes revealText {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.description {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1.375rem;
+  letter-spacing: 0.2rem;
+  color: white;
+  text-align: left;
+  animation: revealText 2s ease-in-out forwards;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.laptop {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-right: 50px;
+}
+
