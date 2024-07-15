@@ -135,7 +135,8 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Laptop Photo | Used for the front page |"https://storyset.com/computer"Computer illustrations by Storyset |
-| GOOGLE FONTS | Used the font Manrope for the design of the texts | https://fonts.google.com/specimen/Manrope?sort=popularity |
+| Google Fonts | Used the font Manrope for the design of the texts | https://fonts.google.com/specimen/Manrope?sort=popularity |
+| Font Awesome | Use for icons | https://fontawesome.com/ |
 
 ## WakaTime
 <div align="center" float="left">

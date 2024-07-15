@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home Page</title>
+    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,23 +11,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
 </head>
 <body>
     <header class="header">
         <i class="fa-solid fa-cat"></i>
         <nav class="nav">
-            <a href="./index.html" class="nav-link">HOME</a>
-            <a href="./pages/page1/index.html" class="nav-link">RESUME</a>
-            <a href="./pages/page2/index.html" class="nav-link">PROJECTS</a>
-            <a href="./pages/page3/index.html" class="nav-link">PORTFOLIO</a>
-            <a href="./pages/page4/index.html" class="nav-link">CONTACTS</a>
+            <a href="../../index.html" class="nav-link">HOME</a>
+            <a href="../page1/index.html" class="nav-link">RESUME</a>
+            <a href="../page2/index.html" class="nav-link">PROJECTS</a>
+            <a href="../page3/index.html" class="nav-link">PORTFOLIO</a>
+            <a href="../page4/index.html" class="nav-link">CONTACTS</a>
         </nav>
     </header>
 
     <img src="./assets/img/aura wallpaper3.jpg" alt="Background" class="background-image">
 
+    <div class="container">
+        <div class="left-container">
+            <h1 class="title">PORTFOLIO PROJECTS</h1>
+            <h2 class="subtitle">Besides HTML/CSS/JS, I also do some basic video editing
+                and graphic design. Here are some of my works.
+            </h2>
+        </div>
+        <div class="right-container">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <img src="./assets/img/1.png" alt="Image 1">
+                    <img src="./assets/img/2.png" alt="Image 2">
+                    <img src="./assets/img/3.png" alt="Image 3">
+                    <img src="./assets/img/4.png" alt="Image 4">
+                    <img src="./assets/img/5.png" alt="Image 5">
+                    <img src="./assets/img/6.png" alt="Image 6">
+                </div>
+                <button class="carousel-button prev">&#10094;</button>
+                <button class="carousel-button next">&#10095;</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/scripts.js"></script>
+
 </body>
 </html>
-
-

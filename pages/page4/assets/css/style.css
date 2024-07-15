@@ -1,74 +1,188 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background-color: #f0f0f0;
+  background-size: cover;
+}
+
+.header {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  z-index: 1;
+}
+
+.fa-cat {
+  color: #E0218A;
+  font-size: 30px;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 1;
+}
+
+.nav-link {
+  font-size: 2rem;
+  color: #E0218A;
+  font-family: 'Bebas Neue', sans-serif;
+  transition: transform 0.5s, color 0.3s;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  transform: translateY(-10px);
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center vertically */
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  max-width: 1200px;
+  padding: 0 20px; /* Add padding to the left and right */
+}
+
+.left-container, .right-container {
+  flex: 1; /* Allow both containers to grow */
+  padding: 20px;
+  background-color: rgba(255, 246, 225, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left; /* Align text to the left */
+}
+
+/* Add a margin to only one container to increase space between them */
+.left-container {
+  margin-right: 5%; /* Adjust this value as needed to increase space */
+}
+
+/* Alternatively, you can adjust the flex-basis property to control the initial size of an element before the remaining space is distributed. */
+.left-container, .right-container {
+  flex-basis: 45%; /* Adjust this value to control the initial size */
+}
+
+.title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4em;
+  margin: 0;
+  color: #E0218A;
+}
+
+.subtitle {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.5em;
+  margin: 10px 0 0;
+  color:  rgb(243, 106, 181);
+}
+
+.description {
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.6;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left:  20px;
+  color: #E0218A;
+  align-items: center;
+}
+
+.social-media-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+   /* Adjust based on your design */
+}
+
+.fa-facebook {
+  color: #E0218A;
+  font-size: 30px;
   
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    background-size: cover;
-  }
-  
-  .header {
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    z-index: 1;
-  }
-  
-  .fa-cat {
-    color: #E0218A; 
-    font-size: 30px;
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 1rem;
-    flex-grow: 1;
-  }
-  
-  .nav-link {
-    font-size: 2rem;
-    color: #E0218A;
-    font-family: "Anton Sc";
-    transition: transform 0.5s, color 0.3s;
-    text-decoration: none;
-    margin-right: 20px;
-    font-family: "Bebas Neue", sans-serif;
-  }
-  
-  .nav-link:last-child {
-    margin-right: 0;
-  }
-  
-  .nav-link:hover,
-  .nav-link:focus {
-    transform: translateY(-10px);
-  }
-  
-  .background-image {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    z-index: -1;
-  }
-  
-  
+}
+.fa-instagram {
+  color: #E0218A;
+  font-size: 33px;
+}
+
+.fa-tiktok {
+  color: #E0218A;
+  font-size: 33px;
+}
+.fa-google {
+  color: #E0218A;
+  font-size: 30px;
+}
+
+.contact-form {
+  display: grid;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+  color:#E0218A;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #E0218A;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #C2185B;
+}
